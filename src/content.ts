@@ -86,11 +86,11 @@ export const content = {
   news: {
     eyebrow: "全媒介",
     title: "每個平台都成為聲音",
-    subtitle: "OneVoice 在人們已然所在的每一個螢幕、每一個頻率上與他們相遇。",
+    subtitle: "同一個聲音在人們所在的每一個螢幕、每一個頻率上與他們相遇。",
     items: [
       {
         title: "港澳區會會長湛志凡牧師宣傳「同聲傳揚27」",
-        href: "https://hkmcadventist.org/%e3%80%8a%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8b9-12%e8%81%af%e5%90%88%e5%b4%87%e6%8b%9c/",
+        href: "https://www.youtube.com/watch?v=qXTRxaYhxYU",
         image: "news-president.jpg",
       },
       {
