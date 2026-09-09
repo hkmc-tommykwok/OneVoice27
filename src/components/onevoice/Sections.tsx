@@ -146,21 +146,21 @@ type DownloadItem = { title: string; format: string; href: string };
 /** 素材資源下載清單（依語言分組，與原站 Materials 面板一致） */
 const HOPE_DOCS = "https://hope-documents.fra1.digitaloceanspaces.com/67054013a60919c92d92c959/";
 const ENGLISH_MATERIALS: DownloadItem[] = [
-  { title: "OneVoice27 簡報範本", format: "PPTX", href: `${HOPE_DOCS}S4z1787584266485.pptx` },
-  { title: "OneVoice27 簡報", format: "PDF", href: `${HOPE_DOCS}R4n1787584270370.pdf` },
-  { title: "OneVoice27 小冊子", format: "PDF", href: `${HOPE_DOCS}pGK1787584274551.pdf` },
-  { title: "英文標誌", format: "PNG", href: `${HOPE_DOCS}omL1787584642273.png` },
-  { title: "英文標誌（復臨教會）", format: "PNG", href: `${HOPE_DOCS}wiS1787584642347.png` },
-  { title: "OneVoice27 檔案包", format: "ZIP", href: `${HOPE_DOCS}uq31788340270047.zip` },
-  { title: "OneVoice27 介紹影片（完整版）", format: "MP4", href: "https://cdn.onevoice27.org/OneVoice27-VideoPresentation-Large.mp4" },
-  { title: "OneVoice27 介紹影片（精簡版）", format: "MP4", href: "https://cdn.onevoice27.org/OneVoice27-VideoPresentation-short.mp4" },
+  { title: "OneVoice27 template PPTX", format: "PPTX", href: `${HOPE_DOCS}S4z1787584266485.pptx` },
+  { title: "OneVoice27 Presentation PDF", format: "PDF", href: `${HOPE_DOCS}R4n1787584270370.pdf` },
+  { title: "OneVoice27 Brochure PDF", format: "PDF", href: `${HOPE_DOCS}pGK1787584274551.pdf` },
+  { title: "ENG logo PNG", format: "PNG", href: `${HOPE_DOCS}omL1787584642273.png` },
+  { title: "ENG logo Adventist PNG", format: "PNG", href: `${HOPE_DOCS}wiS1787584642347.png` },
+  { title: "OneVoice27—file", format: "ZIP", href: `${HOPE_DOCS}uq31788340270047.zip` },
+  { title: "OneVoice27-VideoPresentation-Large", format: "MP4", href: "https://cdn.onevoice27.org/OneVoice27-VideoPresentation-Large.mp4" },
+  { title: "OneVoice27 VideoPresentation-short", format: "MP4", href: "https://cdn.onevoice27.org/OneVoice27-VideoPresentation-short.mp4" },
 ];
 
 const CHINESE_MATERIALS: DownloadItem[] = [
   { title: "同聲傳揚27 簡報範本", format: "PPTX", href: "https://drive.google.com/uc?export=download&id=1HoxrvCXBb3uwNHia5qA-sANyq1XnrH4M" },
   { title: "同聲傳揚27 簡報", format: "PDF", href: "https://drive.google.com/uc?export=download&id=1W-Njgjs2K52ZMmH6bFa-q8NyFfsbK9mY" },
   { title: "同聲傳揚27 小冊子", format: "PDF", href: "https://drive.google.com/uc?export=download&id=13g4tY9KIJ-s-EDPMH_CRz3GRMuQQeiwH" },
-  { title: "中文Logo", format: "DRIVE", href: "https://drive.google.com/uc?export=download&id=1YspUky90IDUQJQxGk_KdoNqO7f4jf8FY" },
+  { title: "中文Logo", format: "DRIVE", href: "https://drive.google.com/drive/folders/10kWyQPn4EmHeRsEbWGPA__fZlQgNOFoK?usp=sharing" },
   { title: "同聲傳揚27介紹影片", format: "MP4", href: "https://drive.google.com/file/d/1TYg8yx6stWuTZooA7RmZr1ztNgPpRlvz/view" },
 ];
 
