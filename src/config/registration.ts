@@ -8,7 +8,7 @@
  *
  * 在貼上 URL 之前，表單會維持「展示模式」：只顯示成功訊息，不送出資料。
  */
-export const REGISTRATION_ENDPOINT = "";
+export const REGISTRATION_ENDPOINT = "https://script.google.com/macros/s/AKfycbzRdkfcm6lEAZWF7yXVED-aO-PBKX-myWDiRNgRAs0D0cC12_DpfscvMCCy2pqaE4lpRg/exec";
 
 export type RegistrationPayload = {
   lightType: "individual" | "group";
