@@ -127,7 +127,7 @@ const MUSIC_DOWNLOADS = [
   {
     title: "同聲傳揚27主題曲 - 歌譜 [PDF]",
     format: "PDF",
-    href: "https://hope-documents.fra1.digitaloceanspaces.com/67054013a60919c92d92c959/PIl1787819788226.pdf",
+    href: "https://drive.google.com/file/d/1mlAh7KMByV7eD5pG-HOGK0XmPJ9JmVw2/view?usp=drive_link",
   },
   {
     title: "同聲傳揚27主題曲 - 純音樂",
