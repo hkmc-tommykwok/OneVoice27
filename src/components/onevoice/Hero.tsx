@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { content } from "@/content";
 import ShineButton from "./ShineButton";
+import Starfield from "./Starfield";
 
 export default function Hero() {
   return (
@@ -15,9 +16,12 @@ export default function Hero() {
         muted
         loop
         playsInline
+        preload="metadata"
         aria-hidden
       />
       <div className="absolute inset-0 bg-[#0b0716]/35" />
+      {/* 星空蓋在影片之上、文字之下 */}
+      <Starfield />
       <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0b0716] via-[#0b0716]/70 to-transparent" />
       <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-[#0b0716]/70 to-transparent" />
       <div className="relative max-w-3xl mx-auto px-5 pb-28 pt-40">

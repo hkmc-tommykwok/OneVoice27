@@ -33,8 +33,14 @@ export default function About() {
               className="absolute inset-0 flex items-center justify-center cursor-pointer"
               aria-label="播放影片"
             >
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#1a0f35] via-[#241243] to-[#0d1b2e]" />
-              <div className="absolute inset-0 starfield opacity-70" />
+              {/* 影片縮圖（70% 透明，與深色星空背景融合） */}
+              <img
+                src="./video-poster.jpg"
+                alt=""
+                aria-hidden
+                className="absolute inset-0 h-full w-full object-cover opacity-90"
+              />
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#1a0f35]/70 via-[#241243]/60 to-[#0d1b2e]/70" />
               <img
                 src="./logo-video.png"
                 alt="同聲傳揚27｜全民宣教"

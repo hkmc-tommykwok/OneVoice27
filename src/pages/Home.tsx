@@ -1,9 +1,13 @@
+import { lazy, Suspense } from "react";
 import Navbar from "@/components/onevoice/Navbar";
 import Hero from "@/components/onevoice/Hero";
-import WorldMap from "@/components/onevoice/WorldMap";
-import Participate from "@/components/onevoice/Participate";
-import About from "@/components/onevoice/About";
 import { Involved, News, Resources, Footer } from "@/components/onevoice/Sections";
+
+// 地圖與後續區塊延遲載入：首屏只需 Navbar + Hero，
+// 其餘（含整個 maplibre 地圖庫）在背景非同步載入。
+const WorldMap = lazy(() => import("@/components/onevoice/WorldMap"));
+const Participate = lazy(() => import("@/components/onevoice/Participate"));
+const About = lazy(() => import("@/components/onevoice/About"));
 
 export default function Home() {
   return (
@@ -11,12 +15,14 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <WorldMap />
-        <Participate />
-        <About />
-        <Involved />
-        <News />
-        <Resources />
+        <Suspense fallback={null}>
+          <WorldMap />
+          <Participate />
+          <About />
+          <Involved />
+          <News />
+          <Resources />
+        </Suspense>
       </main>
       <Footer />
     </div>
