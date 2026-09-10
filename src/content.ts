@@ -10,7 +10,7 @@ export const content = {
   },
   hero: {
     eyebrow: "全球合一運動",
-    title: "同心合意，一個聲音",
+    title: "同心合意  一個聲音",
     subtitle: "跨越國家、文化與社群，人們正圍繞著同一個信息團結起來——從一個人、一個群體開始。",
     cta: "點亮你的光",
   },
