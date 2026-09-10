@@ -94,6 +94,11 @@ export const content = {
         image: "news-president.jpg",
       },
       {
+        title: "港澳區會行政祕書肅家岐牧師突擊採訪「912聯合崇拜」",
+        href: "https://www.facebook.com/reel/1060414273556285",
+        image: "news-912combinedworship.jpg",
+      },
+      {
         title: "同聲傳揚27主題曲「萬眾一聲：全民使命」",
         href: "https://hkmcadventist.org/%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e4%b8%bb%e9%a1%8c%e6%9b%b2-%e3%80%8a%e8%90%ac%e7%9c%be%e4%b8%80%e8%81%b2%ef%bc%9a%e5%85%a8%e6%b0%91%e4%bd%bf%e5%91%bd%e3%80%8b/",
         image: "news-theme.jpg",
