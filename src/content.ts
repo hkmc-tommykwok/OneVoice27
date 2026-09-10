@@ -94,7 +94,7 @@ export const content = {
         image: "news-president.jpg",
       },
       {
-        title: "港澳區會行政祕書肅家岐牧師突擊採訪「912聯合崇拜」",
+        title: "港澳區會行政祕書蕭家岐牧師突擊採訪「912聯合崇拜」",
         href: "https://www.facebook.com/reel/1060414273556285",
         image: "news-912combinedworship.jpg",
       },
