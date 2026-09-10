@@ -18,9 +18,9 @@ export const content = {
     eyebrow: "萬眾一心",
     title: "為眾人點亮我們的光",
     people: "個人",
-    peopleCount: 5696,
+    peopleCount: 6096,
     groups: "群體",
-    groupsCount: 1507,
+    groupsCount: 1606,
   },
   participate: {
     eyebrow: "與我們一起參與",
