@@ -157,9 +157,9 @@ const ENGLISH_MATERIALS: DownloadItem[] = [
 ];
 
 const CHINESE_MATERIALS: DownloadItem[] = [
-  { title: "同聲傳揚27 簡報範本", format: "PPTX", href: "https://drive.google.com/uc?export=download&id=1HoxrvCXBb3uwNHia5qA-sANyq1XnrH4M" },
-  { title: "同聲傳揚27 簡報", format: "PDF", href: "https://drive.google.com/uc?export=download&id=1W-Njgjs2K52ZMmH6bFa-q8NyFfsbK9mY" },
-  { title: "同聲傳揚27 小冊子", format: "PDF", href: "https://drive.google.com/uc?export=download&id=13g4tY9KIJ-s-EDPMH_CRz3GRMuQQeiwH" },
+  { title: "同聲傳揚27 簡報範本", format: "PPTX", href: "https://docs.google.com/presentation/d/1HoxrvCXBb3uwNHia5qA-sANyq1XnrH4M/edit?slide=id.p7#slide=id.p7" },
+  { title: "同聲傳揚27 簡報", format: "PDF", href: "https://drive.google.com/file/d/1W-Njgjs2K52ZMmH6bFa-q8NyFfsbK9mY/view?usp=drive_link" },
+  { title: "同聲傳揚27 小冊子", format: "PDF", href: "https://drive.google.com/file/d/13g4tY9KIJ-s-EDPMH_CRz3GRMuQQeiwH/view?usp=drive_link" },
   { title: "中文Logo", format: "DRIVE", href: "https://drive.google.com/drive/folders/10kWyQPn4EmHeRsEbWGPA__fZlQgNOFoK?usp=sharing" },
   { title: "同聲傳揚27介紹影片", format: "MP4", href: "https://drive.google.com/file/d/1TYg8yx6stWuTZooA7RmZr1ztNgPpRlvz/view" },
 ];
