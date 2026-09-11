@@ -2,6 +2,7 @@ import { useState, type FormEvent } from "react";
 import { CircleCheck, CircleAlert, LoaderCircle, User, Users } from "lucide-react";
 import { content } from "@/content";
 import {
+  getClientIp,
   isRegistrationEnabled,
   submitRegistration,
   type RegistrationPayload,
@@ -31,6 +32,7 @@ export default function Participate() {
     }
 
     const form = new FormData(e.currentTarget);
+    const ipAddress = await getClientIp();
     const payload: RegistrationPayload = {
       lightType,
       groupName: lightType === "group" ? String(form.get("groupName") ?? "") : "",
@@ -39,6 +41,7 @@ export default function Participate() {
       address: String(form.get("address") ?? ""),
       email: String(form.get("email") ?? ""),
       consent: form.get("consent") === "on",
+      ipAddress,
       submittedAt: new Date().toISOString(),
     };
 
