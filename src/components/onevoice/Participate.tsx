@@ -7,6 +7,7 @@ import {
   submitRegistration,
   type RegistrationPayload,
 } from "@/config/registration";
+import { HK_DISTRICTS } from "@/config/hk-districts";
 import ShineButton from "./ShineButton";
 
 type LightType = "individual" | "group";
@@ -137,9 +138,28 @@ export default function Participate() {
 
           <div>
             <label htmlFor="address" className="block text-sm font-semibold mb-2">
-              {c.address}
+              {c.address} <span className="text-[#e2549e]">*</span>
             </label>
-            <input id="address" name="address" placeholder={c.addressPlaceholder} className={inputCls} />
+            <select
+              id="address"
+              name="address"
+              required
+              defaultValue=""
+              className={`${inputCls} appearance-none bg-no-repeat pr-10`}
+              style={{
+                backgroundImage: `url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238d84b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`,
+                backgroundPosition: "right 1rem center",
+              }}
+            >
+              <option value="" disabled>
+                {c.addressPlaceholder}
+              </option>
+              {HK_DISTRICTS.map((d) => (
+                <option key={d} value={d}>
+                  {d}
+                </option>
+              ))}
+            </select>
           </div>
 
           <div>
