@@ -106,7 +106,7 @@ export const content = {
       {
         title: "「同聲傳揚27」9月5日全球同步啟航",
         href: "https://hkmcadventist.org/%e3%80%8c%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8d9%e6%9c%885%e6%97%a5%e5%85%a8%e7%90%83%e5%90%8c%e6%ad%a5%e5%95%9f%e8%88%aa/",
-        image: "news-launch.jpg",
+        image: "news-onevoice27-allthingsnew.jpg",
       },
       {
         title: "「無與倫比的耶穌」會與你細聊耶穌的生平",
