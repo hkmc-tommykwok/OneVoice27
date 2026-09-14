@@ -89,6 +89,11 @@ export const content = {
     subtitle: "同一個聲音在人們所在的每一個螢幕、每一個頻率上與他們相遇。",
     items: [
       {
+        title: "港澳區會「912聯合崇拜」啟動「同聲傳揚27」計劃",
+        href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e7%99%bc%e5%8b%95%e3%80%8c912%e8%81%af%e5%90%88%e5%b4%87%e6%8b%9c%e3%80%8d%e6%ad%a3%e5%bc%8f%e5%95%9f%e5%8b%95%e3%80%8c%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27/",
+        image: "news-ov27-912combinedworship.jpg",
+      },
+      {
         title: "港澳區會會長湛志凡牧師宣傳「同聲傳揚27」",
         href: "https://www.youtube.com/watch?v=qXTRxaYhxYU",
         image: "news-president.jpg",
@@ -104,7 +109,7 @@ export const content = {
         image: "news-theme.jpg",
       },
       {
-        title: "「同聲傳揚27」9月5日全球同步啟航",
+        title: "「同聲傳揚27」以及「一切更新」9月5日全球同步啟航",
         href: "https://hkmcadventist.org/%e3%80%8c%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8d9%e6%9c%885%e6%97%a5%e5%85%a8%e7%90%83%e5%90%8c%e6%ad%a5%e5%95%9f%e8%88%aa/",
         image: "news-onevoice27-allthingsnew.jpg",
       },
