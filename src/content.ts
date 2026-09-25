@@ -100,7 +100,7 @@ export const content = {
       },
       {
         title: "C3ourAge 直擊「912聯合崇拜」現場實況",
-        href: "https://www.instagram.com/reel/DdaQih6zMaU/",
+        href: "https://www.facebook.com/reel/1080207138158632",
         image: "news-c3ourage-live-broadcasting-912combinedworship.jpg",
       },
       {
