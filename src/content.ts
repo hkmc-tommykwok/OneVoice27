@@ -18,9 +18,9 @@ export const content = {
     eyebrow: "萬眾一心",
     title: "為眾人點亮我們的光",
     people: "個人",
-    peopleCount: 6096,
+    peopleCount: 6947,
     groups: "群體",
-    groupsCount: 1606,
+    groupsCount: 1838,
   },
   participate: {
     eyebrow: "與我們一起參與",
@@ -92,6 +92,21 @@ export const content = {
         title: "港澳區會「912聯合崇拜」啟動「同聲傳揚27」計劃",
         href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e7%99%bc%e5%8b%95%e3%80%8c912%e8%81%af%e5%90%88%e5%b4%87%e6%8b%9c%e3%80%8d%e6%ad%a3%e5%bc%8f%e5%95%9f%e5%8b%95%e3%80%8c%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27/",
         image: "news-ov27-912combinedworship.jpg",
+      },
+      {
+        title: "小朋友響應「同聲傳揚27」參與錄製聖經故事「耶穌受浸的故事」",
+        href: "https://hkmcadventist.org/%e5%b0%8f%e6%9c%8b%e5%8f%8b%e5%8f%83%e8%88%87%e9%8c%84%e8%a3%bd%e8%81%96%e7%b6%93%e6%95%85%e4%ba%8b%e3%80%8a%e8%80%b6%e7%a9%8c%e5%8f%97%e6%b5%b8%e7%9a%84%e6%95%85%e4%ba%8b%e3%80%8b/",
+        image: "news-children-recording-jesus-story.jpg",
+      },
+      {
+        title: "C3ourAge 直擊「912聯合崇拜」現場實況",
+        href: "https://www.instagram.com/reel/DdaQih6zMaU/",
+        image: "news-c3ourage-live-broadcasting-912combinedworship.jpg",
+      },
+      {
+        title: "C3ourAge 邀請到全球總會次行政秘書莫路文牧師進行訪談",
+        href: "https://www.instagram.com/reels/DdTmXgjTqBN/",
+        image: "news-c3ourage-interview-with-Moorooven.jpg",
       },
       {
         title: "港澳區會會長湛志凡牧師宣傳「同聲傳揚27」",
