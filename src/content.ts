@@ -89,6 +89,11 @@ export const content = {
     subtitle: "同一個聲音在人們所在的每一個螢幕、每一個頻率上與他們相遇。",
     items: [
       {
+        title: "港澳區會舉行「我願去 - 同聲傳揚27」2027計劃會",
+        href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e3%80%8a%e6%88%91%e9%a1%98%e5%8e%bb-%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8b2027%e8%a8%88%e5%8a%83%e6%9c%83/",
+        image: "news-onevoice27-hkmc-planning2027.jpg",
+      },
+      {
         title: "澳門菲律賓教會全體弟兄姊妹一齊呼籲參與「同聲傳揚27」",
         href: "https://www.facebook.com/reel/1403437271503854",
         image: "news-macau-filipino-onevoice27.jpg",
@@ -97,6 +102,11 @@ export const content = {
         title: "先導紀念堂嚮應「同聲傳揚27」全民宣教「中秋節佈佳音行動」",
         href: "https://www.facebook.com/share/p/1J8mJJuAft/",
         image: "news-PMChurch-mooncake-evangelism.jpg",
+      },
+      {
+        title: "預言之靈部9月5日逄星期一晚舉辦「學習歷代願望」的線上研究會",
+        href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e3%80%8a%e6%88%91%e9%a1%98%e5%8e%bb-%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8b2027%e8%a8%88%e5%8a%83%e6%9c%83/",
+        image: "news-onevoice27-studyDOA.jpg",
       },
       {
         title: "港澳區會「912聯合崇拜」啟動「同聲傳揚27」計劃",
