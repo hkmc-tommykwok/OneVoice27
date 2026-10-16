@@ -89,6 +89,16 @@ export const content = {
     subtitle: "同一個聲音在人們所在的每一個螢幕、每一個頻率上與他們相遇。",
     items: [
       {
+        title: "澳門菲律賓教會全體弟兄姊妹一齊呼籲參與「同聲傳揚27」",
+        href: "https://www.facebook.com/reel/1403437271503854",
+        image: "news-macau-filipino-onevoice27.jpg",
+      },
+      {
+        title: "先導紀念堂嚮應「同聲傳揚27」全民宣教「中秋節佈佳音行動」",
+        href: "https://www.facebook.com/share/p/1J8mJJuAft/",
+        image: "news-PMChurch-mooncake-evangelism.jpg",
+      },
+      {
         title: "港澳區會「912聯合崇拜」啟動「同聲傳揚27」計劃",
         href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e7%99%bc%e5%8b%95%e3%80%8c912%e8%81%af%e5%90%88%e5%b4%87%e6%8b%9c%e3%80%8d%e6%ad%a3%e5%bc%8f%e5%95%9f%e5%8b%95%e3%80%8c%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27/",
         image: "news-ov27-912combinedworship.jpg",
