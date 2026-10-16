@@ -104,8 +104,8 @@ export const content = {
         image: "news-PMChurch-mooncake-evangelism.jpg",
       },
       {
-        title: "預言之靈部9月5日逄星期一晚舉辦「學習歷代願望」的線上研究會",
-        href: "https://hkmcadventist.org/%e6%b8%af%e6%be%b3%e5%8d%80%e6%9c%83%e3%80%8a%e6%88%91%e9%a1%98%e5%8e%bb-%e5%90%8c%e8%81%b2%e5%82%b3%e6%8f%9a27%e3%80%8b2027%e8%a8%88%e5%8a%83%e6%9c%83/",
+        title: "預言之靈部9月5日逄星期一晚舉辦「學習歷代願望」的線上導讀",
+        href: "https://www.youtube.com/playlist?list=PLaSSp9ZH__yk",
         image: "news-onevoice27-studyDOA.jpg",
       },
       {
